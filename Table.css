@@ -1,0 +1,77 @@
+
+h3{
+    border: 2px solid black;
+    width: 380px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.table{
+   display: flex;
+   width: 380px;
+   
+    border: 1px solid black;
+   
+}
+.A1{
+    justify-content: space-around;
+
+    width: 381px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.table:hover{
+    background-color: aqua;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.A2{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    padding: 5px;
+   
+    
+ 
+   
+}
+.A3{
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(7, 2fr);
+    width: 380px;
+    justify-content: space-around;
+    
+}
+.A4{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    color: red;
+}
+.A4:hover{
+    background-color: chartreuse;
+   font-size: smaller;
+}
+
+.days{
+ width: 380px;
+ text-align: center;
+ 
+}
+.days:hover{
+    cursor: pointer;
+    font-size: medium;
+    background-color: aqua;
+}
+.A7{
+    color: red;
+}
+.A7:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    font-size: larger;
+}
+
